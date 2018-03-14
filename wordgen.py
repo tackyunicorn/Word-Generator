@@ -36,4 +36,4 @@ for i in range(size):
     draw.text(((W-w)/2 , (H-h)/2) , word , fill=txtcolor , font=font)
     img.save('./dataset/'+word+'.png' , optimize=True , quality=10)
 
-print ('Dataset of ',size,' words generated succesfully!')
+print ('Dataset of ',size,' words added succesfully!')
